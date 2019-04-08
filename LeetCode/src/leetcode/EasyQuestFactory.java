@@ -2,7 +2,9 @@ package leetcode;
 
 import leetcode.easy.E1021_RemoveOutermostParentheses;
 import leetcode.easy.E461_Hamming_Distance;
+import leetcode.easy.E561_Array_Partition_I;
 import leetcode.easy.E832_FlippingAnImage;
+import leetcode.easy.E852_PeakIndexInAMountainArray;
 import leetcode.easy.E905_SortArrayByParity;
 import leetcode.easy.E942_DIStringMatch;
 import leetcode.easy.E961_N_RepeatedElementInSize2NArray;
@@ -15,8 +17,12 @@ public class EasyQuestFactory {
 		default:
 		case LeetCodeIndex.E461_HAMMING_DISTANCE:
 			return new E461_Hamming_Distance();
+		case LeetCodeIndex.E561_ARRAY_PARTITION_I:
+			return new E561_Array_Partition_I();
 		case LeetCodeIndex.E832_FLIPPING_AN_IMAGE:
 			return new E832_FlippingAnImage();
+		case LeetCodeIndex.E852_PEAK_INDEX_IN_A_MOUNTAIN:
+			return new E852_PeakIndexInAMountainArray();
 		case LeetCodeIndex.E905_SORT_ARAY_BY_PRIORITY:
 			return new E905_SortArrayByParity();
 		case LeetCodeIndex.E942_DI_STRING_MATCH:

@@ -6,11 +6,13 @@ package leetcode;
 
 public interface LeetCodeIndex {
 	String E461_HAMMING_DISTANCE			= "461. Hamming Distance";
+	String E561_ARRAY_PARTITION_I			= "561. Array Partition I";
 	String E617_MERGE_TWO_BINARY_TREES		= "617. Merge Two Binary Trees";
 	String E728_SELF_DIVING_NUMBERS			= "728. Self Dividing Numbers";
     String E771_JEWELS_AND_STONES 			= "771. Jewels and Stones";
     String E804_UNIQUE_MORSE_CODE_WORDS 	= "804. Unique Morse Code Words";
     String E832_FLIPPING_AN_IMAGE			= "832. Flipping an Image";
+    String E852_PEAK_INDEX_IN_A_MOUNTAIN	= "852. Peak Index in a Mountain Array";
     String E905_SORT_ARAY_BY_PRIORITY		= "905. Sort Array By Parity";
     String E929_UNIQUE_EMAIL_ADDRESS 		= "929. Unique Email Addresses";
     String E942_DI_STRING_MATCH				= "942. DI String Match";
